@@ -1,0 +1,1 @@
+# nuxt-vuetify-fontAwesome5
