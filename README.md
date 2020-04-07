@@ -1,6 +1,9 @@
 # fontAwesome
 
-> My superior Nuxt.js project
+これはNuxt.jsにVuetifyを導入し、その後、追加フォントとして、Material Icons、Font Awesome 5、Font Awesome SVGをインストールしています。
+
+作成した手順を以下に記載しています。
+https://qiita.com/idani/items/885733bf055b35daaf66
 
 ## Build Setup
 
