@@ -7,6 +7,7 @@
             <v-icon>mdi-domain</v-icon>
             <v-icon>home</v-icon>
             <v-icon>fas fa-lock</v-icon>
+            <font-awesome-icon :icon="['fas', 'lock']"></font-awesome-icon>
           </v-col>
         </v-row>
       </v-card>
@@ -15,5 +16,13 @@
 </template>
 
 <script>
-export default {}
+import { faClock, faCity } from '@fortawesome/free-solid-svg-icons'
+export default {
+  data: () => ({
+    icons: {
+      clock: faClock,
+      city: faCity
+    }
+  })
+}
 </script>
